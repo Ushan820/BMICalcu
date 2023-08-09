@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_welcome"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.example.ushan.bmicalcu.welcome">
+
+
+        <TextView
+            android:id="@+id/tvWelcome"
+            android:layout_width="310sp"
+            android:layout_height="70sp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            android:width="30sp"
+            android:height="40sp"
+            android:text=""
+            android:textSize="25sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/tvHeight"
+            android:layout_width="100sp"
+            android:layout_height="40sp"
+            android:layout_marginLeft="110sp"
+            android:layout_marginRight="150sp"
+            android:layout_marginTop="20sp"
+            android:width="30sp"
+            android:height="35sp"
+            android:text="Height"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvFeet"
+            android:layout_width="80sp"
+            android:layout_height="30sp"
+            android:layout_marginLeft="110sp"
+            android:layout_marginRight="160sp"
+            android:layout_marginTop="20sp"
+            android:width="30sp"
+            android:height="30sp"
+            android:text="Feet"
+            android:textSize="27sp" />
+
+        <Spinner
+            android:id="@+id/spFeet"
+            android:layout_width="130sp"
+            android:layout_height="65sp"
+            android:layout_marginLeft="110sp"
+            android:layout_marginRight="160sp"
+            android:layout_marginTop="20sp"
+            android:width="30sp"
+            android:height="25sp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvInch"
+            android:layout_width="80sp"
+            android:layout_height="30sp"
+            android:layout_marginLeft="110sp"
+            android:layout_marginRight="180sp"
+            android:layout_marginTop="17sp"
+            android:width="30sp"
+            android:height="30sp"
+            android:text="Inch"
+            android:textSize="27sp" />
+
+        <Spinner
+            android:id="@+id/spInch"
+            android:layout_width="130sp"
+            android:layout_height="65sp"
+            android:layout_marginLeft="110sp"
+            android:layout_marginRight="180sp"
+            android:layout_marginTop="20sp"
+            android:width="30sp"
+            android:height="30sp"
+            android:textSize="27sp" />
+
+        <TextView
+            android:id="@+id/tvWeight"
+            android:layout_width="100sp"
+            android:layout_height="40sp"
+            android:layout_marginLeft="110sp"
+            android:layout_marginRight="160sp"
+            android:layout_marginTop="20sp"
+            android:width="30sp"
+            android:height="35sp"
+            android:text="Weight"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etWeight"
+            android:layout_width="180sp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100sp"
+            android:layout_marginRight="110sp"
+            android:layout_marginTop="20sp"
+            android:width="30sp"
+            android:height="25sp"
+            android:ems="10"
+            android:hint="Weight in Kgs"
+            android:inputType="numberDecimal"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnCalculate"
+            android:layout_width="200sp"
+            android:layout_height="50sp"
+            android:layout_marginLeft="88sp"
+            android:layout_marginRight="128sp"
+            android:layout_marginTop="20sp"
+            android:width="60sp"
+            android:height="25sp"
+            android:text="Calculate"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnViewHistory"
+            android:layout_width="200sp"
+            android:layout_height="50sp"
+            android:layout_marginLeft="88sp"
+            android:layout_marginRight="128sp"
+            android:layout_marginTop="20sp"
+            android:width="60sp"
+            android:height="25sp"
+            android:text="View History"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+</ScrollView>

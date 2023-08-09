@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_bmiresult"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+
+    tools:context="com.example.ushan.bmicalcu.Bmiresult">
+
+
+    <TextView
+        android:id="@+id/tvCalculatedBmi"
+        android:layout_width="300sp"
+        android:layout_height="90sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:textColor="#ff5500"
+        android:text=""
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvUnderweight"
+        android:layout_width="350sp"
+        android:layout_height="40sp"
+        android:layout_marginTop="30sp"
+        android:text="Below 18.5 is Underweight"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/tvNormal"
+        android:layout_width="350sp"
+        android:layout_height="40sp"
+        android:layout_marginTop="5sp"
+        android:text="Between 18.5 to 25 Normal"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/tvOverweight"
+        android:layout_width="350sp"
+        android:layout_height="40sp"
+        android:layout_marginTop="5sp"
+        android:text="Between 25 to 30 Overweight"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/tvObese"
+        android:layout_width="350sp"
+        android:layout_height="40sp"
+        android:layout_marginTop="5sp"
+        android:text="Above 30 is Obese"
+        android:textSize="25sp" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="51dp"
+            android:layout_marginStart="51dp"
+            android:text="Save" />
+
+        <Button
+            android:id="@+id/btnShare"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/btnSave"
+            android:layout_marginEnd="48dp"
+            android:layout_marginRight="48dp"
+            android:text="Share" />
+    </RelativeLayout>
+
+</LinearLayout>
